@@ -7,7 +7,7 @@ function App() {
   const [timer, setTimer] = useState(0); // Stores the counting variable, and sets it
   const timerRef = useRef(null); // A better practice than storing it in the global scope.
 
-  const startTimer = () => { // Starts the timer, doesn't really need to be explained more
+  const startTimer = () => { // Starts the timer, doesn't really need to be explained more 
     if (timerRef.current == null) {
     timerRef.current = setInterval(() => {
 
